@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100%;
+	max-height: 100%;
+	font-family:Open Sans;
+	line-height: 1.5em;
+}
+
+#nav{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 230px; /* Width of navigation frame */
+	height: 100%;
+	overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
+	background: #eee;
+}
+
+main{
+	position: fixed;
+	top: 0;
+	left: 230px; /* Set this to the width of the navigation frame */
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	background: #fff;
+}
+
+.bigshow{
+	margin: 15px; /* Provides padding for the content */
+}
+
+p {
+	color: #555;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+    background-color: #f1f1f1;
+}
+
+nav ul a {
+	color: blue;
+	text-decoration: none;
+	padding: 8px 16px;
+    text-decoration: none;	
+}
+
+/*IE6 fix*/
+* html body{
+	padding: 0 0 0 230px; /* Set the last value to the width of the navigation frame */
+}
+
+* html main{
+	height: 100%;
+	width: 100%;
+}
+
+li a.active {
+    background-color: #777;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}

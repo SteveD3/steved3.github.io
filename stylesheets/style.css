@@ -1,6 +1,6 @@
 @import "https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css";
 
-.bg-super-white { background: #87aec9; }
+.bg-super-white { background: #d5e7f5; }
 .top-50 { top: 50% }
 .pointers { pointer-events: auto; }
 .no-pointers { pointer-events: none; }

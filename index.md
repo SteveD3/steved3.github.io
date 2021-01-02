@@ -1,3 +1,9 @@
-## Coming soon
+---
+title: Welcome to my website
+layout: page
+feature_image: "https://picsum.photos/1300/400?image=989"
+feature_text: |
+  ## Hello world
+---
 
-You're here too early. This website will be online soon enough. Reach out to SteveD3 on Twitter if you have questions.
+There isn't much going on here yet, but watch this space

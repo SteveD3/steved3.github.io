@@ -1,56 +1,22 @@
-# Set theme
-remote_theme: daviddarnes/alembic
+# ----------- CONFIGURABLE START -----------
+title:            "SteveD3.io"
+description:      "SteveD3's personal blog for things that are too long for Twitter."
+url:              https://steved3.io # Site url, without a slash at the end.
+signoff:          "Steve" # Your name
+facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
+share:            false # Turn on twitter and facebook share buttons
 
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
+links:
+  - name:         Posts
+    url:          /
+    external:     false
+  - name:         About me
+    url:          /about
+    external:     false
+# ------------ CONFIGURABLE END ------------
 
-# Set plugins
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jemoji
-- jekyll-remote-theme
-
-# Site settings
-url: 'https://steved3.io'
-baseurl: ''
-title: 'My website'
-description: 'This is my new website'
-permalink: pretty
-logo: "https://github.githubassets.com/favicons/favicon.png"
-
-# Pagination
-paginate: 5
-paginate_path: blog/page:num
-
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
-
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
-
-# Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+permalink:        /posts/:title
+defaults:
+  - values:
+      layout: "default"

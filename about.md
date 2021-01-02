@@ -1,6 +1,9 @@
 ---
-layout: page
-title: About this website
+title: About SteveD3
 ---
 
-I'm not sure yet what this website is about, but I'm sure I'll work it out soon.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend.
+
+Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi.
+
+Find me on [GitHub](https://github.com/SteveD3) or [Twitter](https://twitter.com/SteveD3).

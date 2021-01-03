@@ -20,7 +20,7 @@
   <a name="top"></a>
 <!--
       <a href="{{ site.url }}">
-        <img src="{{ site.url }}/images/nature1.png" alt="Home" width="600" height="122">
+        <img src="{{ site.url }}/images/header.png" alt="Home" width="600" height="122">
       </a>
 -->
     </header>
@@ -53,22 +53,12 @@
         <div class="markdown-body">
           {{ content }}
         </div>
-        <br>
-        <center>
-          <a class=".top-markdown" href="#top"> -[ Return &#x2B0F; ]- </a>
-        </center>
-        <br>
         {% if is_post %}{% include signoff.html %}{% endif %}
       </main>
       {% if is_post %}{% include pagination.html %}{% endif %}
     </div>
     <footer class="mw7 center tc pt3 pb4 silver">
     The content on this website is &copy; {{ site.name }} {{ site.time | date: '%Y' }} | All Rights Reserved.<br>
-<!--
-    <a href="{{ site.url }}">
-      <img src="{{ site.url }}/images/nature2.png" alt="Return Home" class="mt4 db center" />
-    </a>
--->
     </footer>
   </body>
 </html>

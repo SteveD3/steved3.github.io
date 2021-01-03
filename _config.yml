@@ -12,7 +12,7 @@ links:
     url:          /
     external:     false
   - name:         Categories
-    url:          /
+    url:          /categories
     external:     false
   - name:         About
     url:          /about

@@ -17,7 +17,7 @@
   <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
     <header class="tc mt4">
       <a href="{{ site.url }}">
-        <img src="{{ site.url }}/images/nature1.png" alt="Return Home" width="901" height="122">
+        <img src="{{ site.url }}/images/nature1.png" alt="Home" width="600" height="122">
       </a>
     </header>
     <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
@@ -54,10 +54,12 @@
       {% if is_post %}{% include pagination.html %}{% endif %}
     </div>
     <footer class="mw7 center tc pt3 pb4 silver">
+    The content on this website is &copy; {{ site.name }} {{ site.time | date: '%Y' }} | All Rights Reserved.
+<!--
     <a href="{{ site.url }}">
       <img src="{{ site.url }}/images/nature2.png" alt="Return Home" class="mt4 db center" />
     </a>
-    The content on this website is &copy; {{ site.name }} {{ site.time | date: '%Y' }} | All Rights Reserved.
+-->
     </footer>
   </body>
 </html>

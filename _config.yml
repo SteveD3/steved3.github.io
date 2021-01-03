@@ -14,9 +14,6 @@ links:
   - name:         Categories
     url:          /
     external:     false
-  - name:         Google
-    url:          https://www.google.com
-    external:     true
   - name:         About
     url:          /about
     external:     false

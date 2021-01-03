@@ -49,8 +49,9 @@
                   {% else %}
                     {% assign categories = page.categories %}
                       {% endif %}
+                      Filed Under:&nbsp;
                     {% for category in categories %}
-                  Filed Under:&nbsp;<a href="{{site.url}}/{{category}}">{{category}}</a>
+                  <a href="{{site.url}}/{{category}}">{{category}}</a>
                 {% unless forloop.last %}&nbsp;{% endunless %}
               {% endfor %}
             </div>

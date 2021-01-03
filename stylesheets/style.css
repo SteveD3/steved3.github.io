@@ -4,7 +4,11 @@
 .top-50 { top: 50% }
 .pointers { pointer-events: auto; }
 .no-pointers { pointer-events: none; }
-.link:hover { background: url(/images/line.png) repeat-x left bottom; }
+.link:hover {
+  color: #129698;
+  text-decoration: underline;
+}
+/* .link:hover { background: url(/images/line.png) repeat-x left bottom; } */
 
 /* Markdown styles */
 .markdown-body a {

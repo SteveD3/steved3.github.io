@@ -43,6 +43,17 @@
               {% endif %}
               {{ page.title }}
             </h1>
+            <div class="post-categories">
+              {% if post %}
+                {% assign categories = post.categories %}
+                  {% else %}
+                    {% assign categories = page.categories %}
+                      {% endif %}
+                    {% for category in categories %}
+                  <a href="{{site.url}}/categories/#{{category|slugize}}">{{category}}</a>
+                {% unless forloop.last %}&nbsp;{% endunless %}
+              {% endfor %}
+            </div>
             {% if is_post and site.share %}
               <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -53,9 +64,6 @@
         <div class="markdown-body">
           {{ content }}
         </div>
-        <br>
-        {{page.categories | capitalize | join: ', '}}
-        <br>
         {% if is_post %}{% include signoff.html %}{% endif %}
       </main>
       {% if is_post %}{% include pagination.html %}{% endif %}

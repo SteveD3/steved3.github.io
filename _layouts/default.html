@@ -53,6 +53,9 @@
         <div class="markdown-body">
           {{ content }}
         </div>
+        <br>
+        {{page.categories | capitalize | join: ', '}}
+        <br>
         {% if is_post %}{% include signoff.html %}{% endif %}
       </main>
       {% if is_post %}{% include pagination.html %}{% endif %}

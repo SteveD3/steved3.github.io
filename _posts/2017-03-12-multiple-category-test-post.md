@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [Blog, Code, Random]
+categories: [blog, code, random]
 title: Multiple category test post
 date: 2017-03-12 00:06:52
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Code
+categories: code
 title: A Second Example Post
 date: 2014-07-09
 ---

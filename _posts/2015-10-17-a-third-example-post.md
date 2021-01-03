@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Random
+categories: random
 title: A Third Example Post
 date: 2015-10-17
 ---

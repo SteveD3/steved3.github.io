@@ -43,7 +43,6 @@
               {% endif %}
               {{ page.title }}
             </h1>
-            Filed Under:
             <div class="post-categories">
               {% if post %}
                 {% assign categories = post.categories %}
@@ -51,7 +50,7 @@
                     {% assign categories = page.categories %}
                       {% endif %}
                     {% for category in categories %}
-                  <a href="{{site.url}}/{{category}}">{{category}}</a>
+                  <a href="{{site.url}}/{{category}}">Filed Under: {{category}}</a>
                 {% unless forloop.last %}&nbsp;{% endunless %}
               {% endfor %}
             </div>

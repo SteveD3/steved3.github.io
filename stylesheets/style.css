@@ -26,11 +26,11 @@
 .markdown-body > hr {
   margin: 2em -4rem;
   border: 0;
-  border-bottom: 1px dotted #129698;
+  border-bottom: 1px dotted #000;
 }
 .markdown-body blockquote {
   background: #A9D9B7;
-  border-left: .2rem solid #129698;
+  border-left: .2rem solid #000;
   padding-left: 3.8rem;
 }
 .markdown-body table {
@@ -43,7 +43,7 @@
 .markdown-body table th,
 .markdown-body table td {
   padding: .8em .4em;
-  border-bottom: 1px solid #129698;
+  border-bottom: 1px solid #000;
   border-bottom-color: rgba(0,0,0,0.2);
 }
 /* end Markdown styles */

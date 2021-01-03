@@ -15,9 +15,9 @@
   text-decoration: none;
   color: #15475B;
 }
-.top-markdown-body a {
+.top-markdown-body a:link, a:visited, a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #0E222F;
 }
 .markdown-body .highlighter-rouge {
   padding: .25rem .5rem;

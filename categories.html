@@ -3,14 +3,14 @@ layout: page
 permalink: /categories/
 title: Categories
 ---
-
+<H1> This is a test Title </H1>
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
     <p></p>
-
+    <hr>
     <h2 class="category-head">{{ category_name }}</h2>
     <a name="{{ category_name | slugize }}"></a>
     <hr>

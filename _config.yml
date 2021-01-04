@@ -13,7 +13,7 @@ links:
     url:          /
     external:     false
 
-  - name:         Categories
+  - name:         Topics
     url:          /categories
     external:     false
 

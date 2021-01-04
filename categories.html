@@ -57,7 +57,6 @@ permalink: /categories/
 </center>
 
 <hr>
-<br><br>
 
 <div class="tab">
   <button class="tablinks" onclick="openCat(event, 'General')">General</button>
@@ -94,7 +93,7 @@ function openCat(evt, catName) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(catName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 </script>

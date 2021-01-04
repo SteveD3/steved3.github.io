@@ -3,6 +3,7 @@ title:            "SteveD3.io"
 description:      "SteveD3's personal blog for things that are too long for Twitter."
 url:              https://steved3.io # Site url, without a slash at the end.
 signoff:          "Steve" # Your name
+
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
@@ -11,15 +12,20 @@ links:
   - name:         Home
     url:          /
     external:     false
+
   - name:         Categories
     url:          /categories
     external:     false
+
   - name:         About
     url:          /about
     external:     false
 # ------------ CONFIGURABLE END ------------
 
-permalink:        /posts/:title
+permalink:        pretty
 defaults:
   - values:
       layout: "default"
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate

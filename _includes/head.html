@@ -1,6 +1,7 @@
 <link href='{{ site.url }}/images/fav.png' rel='shortcut icon'>
 <link href='{{ site.url }}/stylesheets/style.css' rel='stylesheet' type='text/css' />
 <link href='{{ site.url }}/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
+<link rel="canonical" href="{{ page.url | prepend: site.url }}">
 
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
@@ -13,6 +14,13 @@
   <meta content="{{ site.description }}" property='og:description' />
   <meta content="blog" property="og:type" />
 {% endif %}
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:site" content="@SteveD3" />
+<meta name="twitter:creator" content="@SteveD3">
+<meta name="twitter:card" content="summary">
 <!-- - -->
 
 {% if site.google_analytics %}

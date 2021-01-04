@@ -3,6 +3,7 @@ layout: post
 categories: random
 title: A Third Example Post
 date: 2015-10-17
+description: This is just a general blog post to act as a placeholder for real content. The information within this post is really just made-up words and content. Hopefully this translates well with the SEO properties.
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat nibh vel velit feugiat egestas. Fusce malesuada nisl tincidunt lectus laoreet tincidunt. Morbi quis massa pretium, elementum ex at, condimentum nisi. Nunc vestibulum urna lacinia tristique mollis. Nam iaculis fringilla egestas. Nulla mollis lorem eleifend nulla semper suscipit. Suspendisse mattis tellus dictum, viverra lacus eu, sollicitudin lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus at erat vitae augue commodo gravida quis non erat. Vivamus velit nulla, hendrerit a pellentesque sed, tempus eget enim. Fusce facilisis elit at purus viverra molestie.
 

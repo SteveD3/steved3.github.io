@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: random
+categories: phishing
 title: A Third Example Post
 date: 2015-10-17
 description: This is just a general blog post to act as a placeholder for real content. The information within this post is really just made-up words and content. Hopefully this translates well with the SEO properties.

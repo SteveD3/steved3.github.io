@@ -7,6 +7,6 @@ title: About SteveD3
 
 My journalism career lasted for more than a decade. I was privileged to work with lots of talented writers and editors at several news organizations. I was even fortunate enough to win multiple awards for my work. But I needed a change.
 
-After leaving journalism in 2018, I started working with a well-known, but otherwise unnamed security company doing threat research and publications. Honestly, I like being back in the security industry. Despite the ups and downs, it's a rewarding and challenging experience. I'm a father of two, grandfather of two, current host of TechnicalOutcast, and a former co-host of the Southern Fried Security Podcast. If you want to know more, just get in touch.
+After leaving journalism in 2018, I started working with a well-known, but otherwise unnamed security company doing threat research and publications. Honestly, I like being back in the security industry. Despite the ups and downs, it's a rewarding and challenging experience. I'm a father of two, grandfather of two, current host of TechnicalOutcast, and a former co-host of the Southern Fried Security Podcast. If you want to know more, just get in touch. Email <Steve (at) this domain>, if you'd like. However, Twitter is the fastest method of contact.
 
 Find Steve on [GitHub](https://github.com/SteveD3) or [Twitter](https://twitter.com/SteveD3).

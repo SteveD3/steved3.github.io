@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [general, code, random]
+categories: [general, code, phishing]
 title: Multiple category test post
 date: 2017-03-12 00:06:52
 description: This is just a general blog post to act as a placeholder for real content. The information within this post is really just made-up words and content. Hopefully this translates well with the SEO properties.

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: code
-title: A Second Example Post
+title: A Second Example Post Created
 date: 2014-07-09
 description: This is just a general blog post to act as a placeholder for real content. The information within this post is really just made-up words and content. Hopefully this translates well with the SEO properties.
 ---

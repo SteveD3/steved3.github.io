@@ -8,7 +8,7 @@ Welcome to my little personal portal. This website is unrelated to [Technical Ou
 Checkout the links below for the most recent articles.
 <hr>
 <ul class="list pa0">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:2 %}
   <li class="mv2">
     <a href="{{ site.url }}{{ post.url }}" class="db pv1 link blue hover-mid-gray">
       <time class="fr silver ttu">{{ post.date | date_to_string }} </time>

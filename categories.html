@@ -2,28 +2,6 @@
 layout: page
 permalink: /categories/
 ---
-<center>
-  <h1> -[Topics]- </h1>
-</center>
-<br><br>
-<h2>General:</h2>
-<hr>
-{% for post in site.categories.general %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-<br><br>
-<h2>Code:</h2>
-<hr>
-{% for post in site.categories.code %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-<br><br>
-<h2>Phishing:</h2>
-<hr>
-{% for post in site.categories.phishing %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-
 <style>
 /* Style the tab */
 .tab {
@@ -74,29 +52,39 @@ permalink: /categories/
 }
 </style>
 
+<center>
+  <h1> -[Topics]- </h1>
+</center>
+
+<hr>
+<br><br>
+
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openCat(event, 'General')">General</button>
+  <button class="tablinks" onclick="openCat(event, 'Phishing')">Phishing</button>
+  <button class="tablinks" onclick="openCat(event, 'Code')">Code</button>
 </div>
 
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<div id="General" class="tabcontent">
+  {% for post in site.categories.general %}
+   <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
+<div id="Phishing" class="tabcontent">
+  {% for post in site.categories.phishing %}
+   <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="Code" class="tabcontent">
+  {% for post in site.categories.code %}
+   <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </div>
 
 <script>
-function openCity(evt, cityName) {
+function openCat(evt, catName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {

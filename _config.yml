@@ -22,10 +22,11 @@ links:
     external:     false
 # ------------ CONFIGURABLE END ------------
 
-permalink:        pretty
+permalink:        /data/:title/:year/:month/:day/
 defaults:
   - values:
       layout: "default"
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-feed

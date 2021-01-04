@@ -5,7 +5,7 @@ description: Welcome to SteveD3's personal portal. The website is unrelated to T
 ---
 Welcome to my little personal portal. This website is unrelated to [Technical Outcast](https://TechnicalOutcast.com "Technical Outcast is the home of my podcast"), and will be used to discuss research, life, or anything else that comes to mind. [This post should explain it nicely.](https://steved3.io/data/How-I-Spent-My-Pandemic-Vacation/2020/12/31/ "How I Spent My Pandemic Vacation") Mostly, this domain will be used for things that are just too long for Twitter, but not exactly something that would go on the other domain.
 
-Checkout the links below for the most recent articles.
+Checkout the links below for the most recent articles. Use the Topics link above to see everything.
 <hr>
 <ul class="list pa0">
   {% for post in site.posts limit:2 %}

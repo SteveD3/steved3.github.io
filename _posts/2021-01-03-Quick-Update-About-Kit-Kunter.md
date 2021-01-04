@@ -24,8 +24,9 @@ Development on version 2.0 of Kit Hunter is ongoing. One thing I'm excited about
 
 For example:
 
->4,816 items scanned.
->Kit_Hunter V1 processed all files in 00h : 11m : 52.20s
->Kit_Hunter V2 processed all files in 00h : 00m : 56.38s
-
+```
+4,816 items scanned.
+Kit_Hunter V1 processed all files in 00h : 11m : 52.20s
+Kit_Hunter V2 processed all files in 00h : 00m : 56.38s
+```
 Expect more updates soon.

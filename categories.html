@@ -2,21 +2,21 @@
 layout: page
 permalink: /categories/
 ---
-<H1> This is a test Title </H1>
+<h1>- Topics -</h1>
+<hr>
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
     <p></p>
-    <hr>
-    <h2 class="category-head">{{ category_name }}</h2>
-    <a name="{{ category_name | slugize }}"></a>
-    <hr>
-    {% for post in site.categories[category_name] %}
+  <table>
+    <th><h2 class="category-head">{{ category_name }}</h2><a name="{{ category_name | slugize }}"></a></th>
+      {% for post in site.categories[category_name] %}
     <article class="archive-item">
-    <ul>  <h4><a href="{{ site.url }}{{ post.url }}">{{post.title}}</a></h4> </ul>
+      <td><h4><a href="{{ site.url }}{{ post.url }}">{{post.title}}</a></h4> </td>
     </article>
+  </table>
     {% endfor %}
   </div>
 {% endfor %}

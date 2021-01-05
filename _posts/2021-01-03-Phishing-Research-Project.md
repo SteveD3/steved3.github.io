@@ -6,11 +6,13 @@ date: 2021-01-03
 description: Some of the research I've started doing lately focuses entirely on phishing and phishing kits. Here are some quick observations.
 ---
 
+<center><img src="{{ page.image | absolute_url }}"></center>
+
 I started doing some research during my December vacation, and focused my efforts almost entirely on phishing and phishing kit development. It's an interesting process, because no two kits are alike, even if the same person developed them. There's always a slight variation somewhere, and as kits get recycled or copied, they become this hodgepodge of code and variables.
 
 That's another interesting thing. There is no honor among thieves, so when one phishing kit developer comes up with a new design or process, it's quickly stolen (ripped) and you'll see it appear in multiple kits a short while later. There is also a wide variety of brands being targeted with the kits I've collected. All the usual brands are there, such as Chase or Wells Fargo, Office365, Netflix, PayPal, etc. However, there are other smaller, more localized brands being targeted, which is interesting to observe.
 
-From November 2020 until December 31st, I collected 810 phishing kits for my research. This is in addition to the hundreds of kits I already had. I'll start digging into them in more detail in future posts, but the list below is a brief example of the things I've extracted from my phishing collection so far. The thing is, my scope and visibility is limited, so I'm only really scratching the surface. 
+From November 2020 until December 31st, I collected 810 phishing kits for my research. This is in addition to the hundreds of kits I already had. I'll start digging into them in more detail in future posts, but the list below is a brief example of the things I've extracted from my phishing collection so far. The thing is, my scope and visibility is limited, so I'm only really scratching the surface.
 
 ```
 .

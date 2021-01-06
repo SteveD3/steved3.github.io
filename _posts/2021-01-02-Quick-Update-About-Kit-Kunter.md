@@ -1,9 +1,10 @@
 ---
 layout: post
-categories: [code, phishing]
+categories: [code]
 title: Quick Update About Kit Hunter
 date: 2021-01-02
 description: Now that 2020 is over, and 2021 is official, I wanted to post an update on Kit Hunter.
+image: /images/code.png
 ---
 
 ### Kit Hunter v1.0

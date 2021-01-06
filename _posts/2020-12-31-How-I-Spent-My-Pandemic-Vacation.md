@@ -4,6 +4,7 @@ categories: general
 title: How I Spent My Pandemic Vacation
 date: 2020-12-31
 description: I took the month of December off, and after a week, I needed something to do. So, I built a website to teach myself a few things, and this is the first post.
+image: /images/general.jpg
 ---
 
 ### New Year - New website

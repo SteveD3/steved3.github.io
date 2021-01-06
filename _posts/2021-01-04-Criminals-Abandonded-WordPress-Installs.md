@@ -1,13 +1,13 @@
 ---
 layout: post
 categories: phishing
-title: Abandoned WordPress Installs Are Phish Traps
+title: Abandoned WordPress Installs
 date: 2021-01-04
 description: Criminals love taking advantage of abandoned WordPress installations, often targeting vulnerable add-on scripts or modules, in order to upload phishing kits.
 image: /images/phish-img.jpg
 ---
 
-### The site that just won't go away
+### Criminals love abandoned WordPress installations
 
 Criminals love taking advantage of abandoned WordPress installations, often targeting vulnerable add-on scripts or modules to compromise the domain. They do this in order to upload phishing kits and other malicious payloads, and leverage the otherwise clean - or presumed safe - reputation of the compromised website. The older a domain is, the more valuable it can be. For this post, we're going to examine a website that has appeared in my daily phishing scans each day since November 12, 2020.
 

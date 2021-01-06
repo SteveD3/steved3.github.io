@@ -4,7 +4,7 @@ categories: phishing
 title: Phishing Research project
 date: 2021-01-03
 description: Some of the research I've started doing lately focuses entirely on phishing and phishing kits. Here are some quick observations.
-image: /images/eye-4063134_640.jpg
+image: /images/phish-img.jpg
 ---
 
 I started doing some research during my December vacation, and focused my efforts almost entirely on phishing and phishing kit development. It's an interesting process, because no two kits are alike, even if the same person developed them. There's always a slight variation somewhere, and as kits get recycled or copied, they become this hodgepodge of code and variables.

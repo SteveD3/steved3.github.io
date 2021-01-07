@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: phishing
-title: Phishing Research Project
+title: Phishing research project
 date: 2021-01-03
 description: Some of the research I've started doing lately focuses entirely on phishing and phishing kits. Here are some quick observations.
 image: /images/phish-img.jpg

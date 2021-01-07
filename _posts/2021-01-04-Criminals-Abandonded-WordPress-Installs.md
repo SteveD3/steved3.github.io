@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: phishing
-title: Abandoned WordPress Installs
+title: A look at abandoned WordPress installs
 date: 2021-01-04
 description: Criminals love taking advantage of abandoned WordPress installations, often targeting vulnerable add-on scripts or modules, in order to upload phishing kits.
 image: /images/phish-img.jpg

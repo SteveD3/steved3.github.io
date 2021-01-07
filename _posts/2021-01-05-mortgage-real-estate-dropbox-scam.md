@@ -75,4 +75,4 @@ Targeted phishing attacks are rather common, as criminals usually tune their vic
 
 [^2]: A landing page is what is displayed when a victim click the phishing link within a lure.
 
-[img1]:https://steved3.io/images/posts/dropbox_example.jpg
+[img1]:https://steved3.io/images/posts/dropbox_example.png

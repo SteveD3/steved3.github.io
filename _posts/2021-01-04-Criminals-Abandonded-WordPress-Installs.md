@@ -53,7 +53,7 @@ Either way, Iwatsuki domain and phishing kit continues to show up in my daily sc
 
 ---
 
-[^1]: A landing page is what is displayed when a victim clicks on a phishing link.
+[^1]: A landing page is what is displayed when a victim click the phishing link within a lure.
 
 
 [^2]: A lure is what entices the victim into clicking the phishing link. Often this can be an alarming message sent via email or SMS, or a post on social media. The key is that the criminal has created a sense of urgency, alarm, or curiosity in the victim, thus getting them to commit to clicking the link.

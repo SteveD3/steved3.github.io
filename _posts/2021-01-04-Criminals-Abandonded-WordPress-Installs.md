@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 categories: phishing
 title: A look at abandoned WordPress installs
 date: 2021-01-04

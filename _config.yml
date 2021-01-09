@@ -28,6 +28,5 @@ defaults:
       layout: "default"
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
   - jekyll-feed
 # -- checked 1-3-20 --

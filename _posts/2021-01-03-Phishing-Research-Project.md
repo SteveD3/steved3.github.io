@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 categories: phishing
 title: Phishing research project
 date: 2021-01-03

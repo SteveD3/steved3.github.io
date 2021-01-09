@@ -2,10 +2,14 @@
   <title>{{ page.title }} - {{ site.title }}</title>
   <meta content='text/html; charset=utf-8' http-equiv='content-type' />
   <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
-  <link href='https://steved3.io/feed.xml' rel='alternate' type='application/atom+xml'>
-  <link href='{{ site.url }}/stylesheets/style.css' rel='stylesheet' type='text/css' />
-  <link href='{{ site.url }}/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
-  <link href='{{ site.url }}/images/fav.png' rel='shortcut icon'>
+  <link href="{{'/feed.xml' | relative_url}}" rel='alternate' type='application/atom+xml'>
+  <link href="{{'/stylesheets/style.css' | relative_url}}" rel='stylesheet' type='text/css' />
+  
+  
+  
+  
+  <link href="{{'/stylesheets/syntax.css' | relative_url }}" rel='stylesheet' type='text/css' />
+  <link href="{{'/images/fav.png' | relative_url }}"  rel='shortcut icon'>
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
 
   <meta content='{{ page.title }} - {{ site.title }}' name='title' />

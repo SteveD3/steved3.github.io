@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 categories: [code]
 title: Quick update about Kit Hunter
 date: 2021-01-02

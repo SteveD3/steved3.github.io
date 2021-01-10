@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 categories: general
 title: How I spent my pandemic vacation
 date: 2020-12-31

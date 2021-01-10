@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Welcome!
 description: Welcome to SteveD3's personal portal. The website is unrelated to Technical Outcast, but will be used to discuss research, life, or anything else that doesn't really fit, or is too long for Twitter.
 ---

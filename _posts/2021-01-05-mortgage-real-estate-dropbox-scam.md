@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 categories: phishing
 title: Mortgage and real estate agents targeted by Dropbox scam
 date: 2021-01-05

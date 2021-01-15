@@ -1,10 +1,10 @@
 ---
 layout: default
 categories: phishing
-title: Mortgage and real estate agents targeted by Dropbox scam
+title: Real estate agents targeted by Dropbox scam
 date: 2021-01-05
 description: Criminals deployed a Dropbox Business phishing kit to target mortgage and real estate employees. The kit achieved near-instant results.
-image: /images/phish-img.jpg
+image: /images/phish-img-3.jpg
 ---
 
 ### Gone phishing

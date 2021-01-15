@@ -10,3 +10,7 @@ My journalism career lasted for more than a decade. I was privileged to work wit
 After leaving journalism in 2018, I started working with a well-known, but otherwise unnamed security company doing threat research and publications. Honestly, I like being back in the security industry. Despite the ups and downs, it's a rewarding and challenging experience. I'm a father of two, grandfather of two, current host of TechnicalOutcast, and a former co-host of the Southern Fried Security Podcast. If you want to know more, just get in touch. Email <Steve (at) this domain>, if you'd like. However, Twitter is the fastest method of contact.
 
 You can find me on [GitHub](https://github.com/SteveD3) or [Twitter](https://twitter.com/SteveD3).
+
+## Image Credit:
+
+Stock images used on this website can be found on Unsplash.com, PixaBay.com, and Slon.pics.

@@ -3,33 +3,76 @@ layout: default
 permalink: /categories/
 ---
 <center>
-  <h1> -[Topics]- </h1>
+  <h1> -Topics- </h1>
 </center>
 
-<hr>
+<p>Below you'll find the topics associated with this website, and the posts tagged under them. Some posts may belong to multiple topics. Feel free to find something to read and relax.</p>
+
 
 <div class="tab">
   <button class="tablinks" onclick="openCat(event, 'General')">General</button>
   <button class="tablinks" onclick="openCat(event, 'Phishing')">Phishing</button>
   <button class="tablinks" onclick="openCat(event, 'Code')">Code</button>
+  <button class="tablinks" onclick="openCat(event, 'Media')">Media</button>
 </div>
 
 <div id="General" class="tabcontent">
-  {% for post in site.categories.general %}
-   <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</div>
+  <table>
+    <tr>
+      <th>DATE:</th>
+      <th>TITLE:</th>
+    </tr>
+    {% for post in site.categories.general %}
+    <tr>
+      <td>{{ post.date | date_to_string }}</td>
+      <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+  </table></div>
 
 <div id="Phishing" class="tabcontent">
+<table>
+  <tr>
+    <th>DATE:</th>
+    <th>TITLE:</th>
+  </tr>
   {% for post in site.categories.phishing %}
-   <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  <tr>
+    <td>{{ post.date | date_to_string }}</td>
+    <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+  </tr>
   {% endfor %}
+</table>
 </div>
 
 <div id="Code" class="tabcontent">
-  {% for post in site.categories.code %}
-   <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-  {% endfor %}
+  <table>
+    <tr>
+      <th>DATE:</th>
+      <th>TITLE:</th>
+    </tr>
+    {% for post in site.categories.code %}
+    <tr>
+      <td>{{ post.date | date_to_string }}</td>
+      <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
+<div id="Media" class="tabcontent">
+  <table>
+    <tr>
+      <th>DATE:</th>
+      <th>TITLE:</th>
+    </tr>
+    {% for post in site.categories.media %}
+    <tr>
+      <td>{{ post.date | date_to_string }}</td>
+      <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
 </div>
 
 <script>

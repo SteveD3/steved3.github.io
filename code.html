@@ -3,7 +3,19 @@ layout: default
 permalink: /code/
 title: Code
 ---
-<hr>
-{% for post in site.categories.code %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+<center>
+  <h1>-Code-</h1>
+</center>
+<p>Here are all the posts tagged under the Code label.</p>
+<table>
+  <tr>
+    <th>DATE:</th>
+    <th>TITLE:</th>
+  </tr>
+  {% for post in site.categories.code %}
+  <tr>
+    <td>{{ post.date | date_to_string }}</td>
+    <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+  </tr>
+  {% endfor %}
+</table>

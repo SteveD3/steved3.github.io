@@ -33,4 +33,4 @@ Kit_Hunter V2 processed all files in 00h : 00m : 56.38s
 Expect more updates soon.
 
 In the meantime, here is a blast from the past. When I first started working on Kit Hunter, I made a video for CSO Online. You can watch it below.
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Fqkvu1cg6oo?controls=0" frameborder="0" allow="accelerometer; encrypted-media;" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Fqkvu1cg6oo" frameborder="0" allow="accelerometer; encrypted-media;" allowfullscreen></iframe>

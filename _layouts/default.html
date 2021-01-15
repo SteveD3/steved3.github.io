@@ -1,54 +1,35 @@
-{% assign is_post = page.date %}
+
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
 <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
   <header class="tc mt4">
-    <br><br>
+    <br>
     <a name="top"></a>
   </header>
-  <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
-    <nav class="bb b--light-gray pv4 tc" aria-label="Main">
+  <div class="mw7 bg-white mt3 mb3 center br3-ns bt bb ba-ns b--black">
+    <nav class="bb b--black pv4 tc" aria-label="Main">
       {% for link in site.links %}
       <a class="link blue hover-mid-gray mh2 pv1" href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}"> {{ link.name }} </a>
       {% endfor %}
     </nav>
-    <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
-      {% if page.title %}
-      <div class="mb4">
-        {% if page.date %}<div class="fw600 light-silver mt1">{{ page.date | date_to_string }}</div>{% endif %}
-        <h1 class="f3 mt0 lh-title cb mb2">
-          {% if is_post %}
-          {% endif %}
-          {{ page.title }}
-        </h1>
-        <div class="post-categories">
-          {% if post %}
-          {% assign categories = post.categories %}
-          {% else %}
-          {% assign categories = page.categories %}
-          {% endif %}
-          {% for category in categories %}
-          <a href="{{site.url}}/{{category}}">{{category}}</a>
-          {% unless forloop.last %}&nbsp;{% endunless %}
-          {% endfor %}
-        </div>
-        {% if is_post and site.share %}
-        <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial" data-action="like"></div>
-        {% endif %}
-      </div>
+    <main class="tl f6 relative pa3 pa3-ns overflow-hidden">
+      {% if page.date %}
+      {% include post.html %}
       {% endif %}
       <div class="markdown-body">
+        {% if page.p %}
+        <center><img src="/images/logo.jpg" alt="Technical Outcast"></center>
+        <br><br>
+        {% endif %}
         {{ content }}
       </div>
-      {% if is_post %}{% include signoff.html %}{% endif %}
+      {% if page.date %}{% include signoff.html %}{% endif %}
     </main>
-    {% if is_post %}{% include pagination.html %}{% endif %}
+    {% if page.date %}{% include pagination.html %}{% endif %}
   </div>
-  <footer class="mw7 center tc pt3 pb4 silver">
-    &copy; {{ site.name }} | Steve Ragan {{ site.time | date: '%Y' }}<br>
+  <footer class="mw7 center tc pt3 pb4 white">
+    &copy; {{ site.time | date: '%Y' }} Steve Ragan | {{ site.title }}<br>
   </footer>
 </body>
 </html>

@@ -62,7 +62,7 @@ Journalists are people. As such, there are good ones, bad ones, and those who ex
 The majority of working journalists would never burn a source intentionally, and using remarks that were given off the record in confidence would instantly burn the source. However, as mentioned, journalists are people too, and so bad apples exist.
 
 ## What does on background mean?
-On Backgrond
+On Background
 :	On background conversations are really common when it comes to dealing with the press. These conversations mean the journalist can use what you’ve said or shared, but they cannot name you as the source. You may sometimes hear this as not for attribution.
 
 **Remember:**You and the journalist will need to agree to an on background conversation before you start talking. Also, you can’t say something and then after the conversation concludes, or the story is written, claim it was on background.

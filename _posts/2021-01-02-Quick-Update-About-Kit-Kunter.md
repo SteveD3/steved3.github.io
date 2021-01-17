@@ -1,6 +1,6 @@
 ---
 layout: default
-categories: [code]
+categories: code
 title: Quick update about Kit Hunter
 date: 2021-01-02
 description: Now that 2020 is over, and 2021 is official, I wanted to post an update on Kit Hunter.

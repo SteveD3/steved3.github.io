@@ -9,7 +9,7 @@ image: /images/press.jpg
 
 ## A quick reminder about how off the record works
 
-Earlier this year, [I wrote about off the record, on the record, and on background in a different post][1]. One of the main points of that earlier article centers on the fact that off the record is only an option when both you and the journalist agrees.
+Earlier this year, [I wrote about off the record, on the record, and on background in a different post](https://steved3.io/data/Media-Training-Basics-And-Tips-For-Hackers/2018/08/08/ "Media Training for Hackers"). One of the main points of that earlier article centers on the fact that off the record is only an option when both you and the journalist agrees.
 
 ><b>Note:</b>You can’t just say something is off the record and leave it at that. The journalist has to agree. Otherwise, everything discussed is in fact on the record and subject to use.
 
@@ -23,4 +23,3 @@ If he did check with the internal communications team at Tesla, it isn’t clear
 
 
 [email]:/images/posts/off-record-email.jpg
-[1]: https://steved3.io/data/Media-Training-Basics-And-Tips-For-Hackers/2018/08/08/

@@ -10,7 +10,7 @@ This website is unrelated to [Technical Outcast](https://TechnicalOutcast.com "T
 Checkout the links below for the most recent articles. Use the Topics link above to see everything.
 <hr>
 <table>
-  {% for post in site.posts limit:4 %}
+  {% for post in site.posts limit:7 %}
   <tr>
     <td>{{ post.date | date_to_string }}</td>
     <td><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></td>

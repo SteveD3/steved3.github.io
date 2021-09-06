@@ -34,7 +34,7 @@ In no particular order, here are some of new features in version 2.0:
 
 As mentioned, there are 41 tag files for scanning, which will be housed in their own folder. These tag files are detected by name, and offer an at-a-glance general idea as to the nature of the results. As an example, here is a look at a report after scanning an archive. Kit Hunter still identifies the files that contain the suspect code detected by the script, but now it breaks down what type of detection happened. In this example, the code hit on multiple tag rules in the archive, including LogoKit detections, Kit Author, Brand, and setup.
 
-Incidentally, this scan used the -l switch, which removes the section of the report that shows matching lines, which is why they are not in the image.
+Incidentally, this scan used the -l switch, which removes the section of the report that shows matching lines. This is why they are not in the image.
 
 ![An Office 365 phishing kit was detected after the archive was scanned by Kit Hunter 2.0][img1]
 

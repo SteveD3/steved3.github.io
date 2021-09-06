@@ -1,7 +1,7 @@
 ---
 layout: default
 categories: code
-title: Kit Hunter Version 2.0
+title: Kit Hunter Version 2.0 - Update
 date: 2021-09-06
 description: Work on Kit Hunter 2.0 is almost complete.
 image: /images/kit-hunter2.jpg

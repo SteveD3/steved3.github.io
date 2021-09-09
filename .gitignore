@@ -5,3 +5,4 @@ _site/
 Gemfile.lock
 _config-dev.yml
 images/photothumb.db
+images/posts/photothumb.db

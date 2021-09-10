@@ -71,8 +71,7 @@ style J fill:#bf809c,stroke:#333,stroke-width:4px
 Targeted phishing attacks are rather common, as criminals usually tune their victim lists towards a general theme or topic, and the kits match it. In this case, the targeted victims were all business users, and the lure focused on a routine aspect of their jobs - receiving and sharing documents. Clearly, the attack worked, which is unfortunate. The domain hosting this scam is offline, but the URL is still being flagged by Google Safe Browsing.
 
 ---
-[^1]: A lure is what entices the victim into clicking the phishing link. Often this can be an alarming message sent via email or SMS, or a post on social media. The key is that the criminal has created a sense of urgency, alarm, or curiosity in the victim, thus getting them to commit to clicking the link.
+[^1]: A lure is what entices the victim into accessing the included phishing link. Often this can be an alarming message sent via email or SMS, or a post on social media. The key is that the criminal has created a sense of urgency, alarm, or curiosity in the victim, thus getting them to commit to accessing the link.
 
-[^2]: A landing page is what is displayed when a victim click the phishing link within a lure.
-
+[^2]: A landing page is what is displayed when a victim accesses (clicks) the phishing link within a lure.
 [img1]:https://steved3.io/images/posts/dropbox_example.png

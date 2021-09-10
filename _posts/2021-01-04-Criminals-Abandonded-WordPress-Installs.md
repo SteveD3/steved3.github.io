@@ -23,21 +23,21 @@ The image below is what the phishing kit's landing page[^1] on the compromised I
 
 ![The hotel review website is still hosting an active phishing kit targeting email addresses][img1]
 
-It's one of the more basic phishing kits circulating on the web. The lure[^2] used with these kits is usually something that warns the victim that their mailbox is about to be deleted unless they verify their email password. When the landing page is loaded, the script starts a visible clock at 01:15:09 which will countdown until zero. Once the user enters their password, the details collected are emailed off to the criminal listed in the post.php script.
+It's one of the more basic phishing kits circulating on the web. The lure[^2] used with these kits is usually something that warns the victim that their mailbox is about to be deleted unless they verify their email password. When the landing page is loaded, the script starts a visible clock at 01:15:09 which will countdown until zero. Once the user enters their password, the details collected are emailed off to the criminal listed in the `post.php` script.
 
 ### Good News and Bad News
 
-There is some good news about this kit. Good News: It doesn't work. In the code for loader.php, the meta refresh callout is looking for a file that doesn't exist, resulting in a 404 page. It's possible this might alert the victim that something is wrong, assuming that the generic look and feel of the website itself wasn't enough of a warning already.
+There is some good news about this kit. Good News: It doesn't work. In the code for `loader.php`, the meta refresh callout is looking for a file that doesn't exist, resulting in a 404 page. It's possible this might alert the victim that something is wrong, assuming that the generic look and feel of the website itself wasn't enough of a warning already.
 
 ```php
 <meta http-equiv="REFRESH" content="10; success.php?rand=13InboxLightaspxn.1774256418&fid.4.1252899642&fid=1&fav.1&rand.13InboxLight.aspxn.1774256418&fid.1252899642&fid.1&fav.1&email=<?php echo $_GET['email']; ?>&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1">
 ```
 
->In the code above, success.php is missing, which is what triggered the 404.
+>In the code above, `success.php` is missing, which is what triggered the 404.
 >
 >Also, notice the $email variable in the URL. When the victim submits the verification form, their email address is included, and sent along with the matching password. When the lure is sent to the victim, the link that is clicked includes the victim's email address, so it is collected automatically.
 
-However, the bad news is that by the time the 404 page renders, the emailed credentials have already been shipped off. The loader.php file is supposed to trigger a chain that seeks additional verification from the user, which enables the criminals to get two copies of the victim's credentials.
+However, the bad news is that by the time the 404 page renders, the emailed credentials have already been shipped off. The `loader.php` file is supposed to trigger a chain that seeks additional verification from the user, which enables the criminals to get two copies of the victim's credentials.
 
 Why would they do this? There a couple of reasons that come to mind:
 
@@ -53,9 +53,8 @@ Either way, Iwatsuki domain and phishing kit continues to show up in my daily sc
 
 ---
 
-[^1]: A landing page is what is displayed when a victim click the phishing link within a lure.
+[^1]: A landing page is what is displayed when a victim accesses (clicks) the phishing link within a lure.
 
-
-[^2]: A lure is what entices the victim into clicking the phishing link. Often this can be an alarming message sent via email or SMS, or a post on social media. The key is that the criminal has created a sense of urgency, alarm, or curiosity in the victim, thus getting them to commit to clicking the link.
+[^2]: A lure is what entices the victim into accessing the included phishing link. Often this can be an alarming message sent via email or SMS, or a post on social media. The key is that the criminal has created a sense of urgency, alarm, or curiosity in the victim, thus getting them to commit to accessing the link.
 
 [img1]:https://steved3.io/images/posts/wp-phish-trap.png

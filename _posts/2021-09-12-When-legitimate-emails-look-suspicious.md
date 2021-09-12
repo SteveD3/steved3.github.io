@@ -6,7 +6,6 @@ date: 2021-09-12
 description: A legitimate SharePoint email looks like a clever phishing attack.
 image: /images/posts/adobe-stock-sharepoint2.jpg
 ---
-
 ## An interesting example
 
 <img style="float: right; margin:1em;" src="/images/posts/sharepoint_email.jpg">Awareness training programs frequently encourage users to report emails as phishing if they suspect anything unusual.
@@ -84,6 +83,8 @@ But if nothing else. Just keep encouraging the awareness and reporting. It's wor
 
 ---
 Footnote:
+
+Header Image: Araki Illustrations - stock.adobe.com
 
 [^1]: A lure is what entices the victim into accessing the included phishing link. Often this can be an alarming message sent via email or SMS, or a post on social media. The key is that the criminal has created a sense of urgency, alarm, or curiosity in the victim, thus getting them to commit to accessing the link.
 

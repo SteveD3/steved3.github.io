@@ -21,7 +21,7 @@ It might not be the prettiest report, but it is a useful report. As work continu
 
 The first line of the report shows the folder or archive that was scanned, as well as its exact location on the server.
 
->Note: In the examples below, `/public_html/wp-content/themes/twentysixteen/inc` were removed for visibility.
+>Note: In the examples below, `/public_html/wp-content/themes/twentysixteen/inc` were removed for visibility. Domains are redacted to prevent linking.
 
 ```
 | ==============================================================================
@@ -99,9 +99,9 @@ The brand indicators in Kit Hunter are there to help assist in contextual awaren
 | The following tag file reported matches: Phishing_Kit_URL_Indicators.tag
 | ==============================================================================
 |
-|           Tag: 'apple.com'
-|           Tag: 'iforgot.apple.com'
-|           Tag: 'paypal.com'
+|           Tag: 'apple[.]com'
+|           Tag: 'iforgot[.]apple[.]com'
+|           Tag: 'paypal[.]com'
 |
 ```
 ### Detection Rules
@@ -115,7 +115,7 @@ In the example below, the tags that are being called out have been seen in multi
 | The following tag file reported matches: Apple_Phishing_Detection.tag
 | ==============================================================================
 |
-|           Tag: 'appleid.cdn-apple.com'
+|           Tag: 'appleid[.]cdn-apple[.]com'
 |           Tag: 'omni_page'
 |
 | ==============================================================================
@@ -139,7 +139,7 @@ For this post, I'm only listing a few of the lines that were returned in the rep
 | The following lines contained the previously flagged phishing tags:
 | ==============================================================================
 |
-| Line:  '<meta http-equiv="refresh" content="3;url=hxxp://www.apple.com/" />'
+| Line:  '<meta http-equiv="refresh" content="3;url=hxxp://www[.]apple[.]com/" />'
 | Line:  '<meta name="Author" content="Apple Inc.">'
 | Line:  '<meta name="Description" content="Your Apple ID is the account you
 | Line:  '<meta name="Title" content="Apple ID">'

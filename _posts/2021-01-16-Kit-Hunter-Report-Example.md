@@ -33,7 +33,7 @@ The first line of the report shows the folder or archive that was scanned, as we
 
 ## Files Flagged:
 
-The second line lists the files that were detected as suspect during the scan. These files contain known tags, or known indicators, which usually point to the existence of a phishing kit. Context is key. The administrator should already have a good idea of what files are on the server. This type of listing should immediately raise red flags if the files or directories are unknown. However, because criminals routinely hijack websites, even "known" files could be problematic. In the example below, the callout to "`Apple_Login.php`" is an immediate red flag, as is the existence of a `success.php` file in the same directory.
+The second line lists the files that were detected as suspect during the scan. These files contain known tags, or known indicators, which usually point to the existence of a phishing kit. Context is key. The administrator should already have a good idea of what files are on the server. This type of listing should immediately raise red flags if the files or directories are unknown. However, because criminals routinely hijack websites, even "known" files could be problematic. In the example below, the callout to `Apple_Login.php` is an immediate red flag, as is the existence of a `success.php` file in the same directory.
 
 ```
 | ==============================================================================
@@ -58,7 +58,11 @@ Tags can include script functions, application calls, names of kit authors, emai
 
 ### Security Indicators
 
-When Kit Hunter flags on security indicators, this means it has detected something criminals often use to keep their kits hidden from detection, or to help keep their kits from being abused. In the example below `$blocked_words = array(`is a function that is often used to prevent junk form submissions, or to prevent access based on browser or header information. Another tag below (`HTTrack`) has a duel use, as it is often blocked to prevent the kit from being stolen, or it is detected because criminals will copy their victim brand's website wholesale. The other tags are names of known security vendors or bots, which are frequently blocked by phishing kits. Likewise, Tor is blocked as it is seen as a security risk by phishing kit developers.
+When Kit Hunter flags on security indicators, this means it has detected something criminals often use to keep their kits hidden from detection, or to help keep their kits from being abused.
+
+In the example below `$blocked_words = array(`is a function that is often used to prevent junk form submissions, or to prevent access based on browser or header information. Another tag below (`HTTrack`) has multiple uses. It is often blocked to prevent the kit from being stolen, or it is detected because criminals will copy their victim brand's website wholesale.
+
+The other tags are names of known security vendors or bots, which are frequently blocked by phishing kits. Likewise, Tor is blocked as it is seen as a security risk by phishing kit developers.
 
 ```
 | ==============================================================================
@@ -78,7 +82,7 @@ When Kit Hunter flags on security indicators, this means it has detected somethi
 
 ### Brand Indicators
 
-The brand indicators in Kit Hunter are there to help assist in contextual awareness. In this case, there are several calls to Apple based services, which isn't likely to be normal on domains that aren't focused on Apple. Likewise, the URL indicators are there to show possible issues. In this example, the issues include the fact that assets are being called on from Apple. Again, something to be investigated.
+The brand indicators in Kit Hunter are there to help assist in contextual awareness. In this case, there are several calls to Apple based services, which isn't likely to be normal on domains that aren't focused on Apple. Likewise, the URL indicators are there to show possible issues. In this example, the issues include the fact that assets are being called on from Apple.
 
 ```
 | ==============================================================================
@@ -102,7 +106,9 @@ The brand indicators in Kit Hunter are there to help assist in contextual awaren
 ```
 ### Detection Rules
 
-Named detection rules in Kit Hunter exist because multiple URLs, functions, author names, brands, etc. have been observed during testing and phishing kit processing, which warranted a single detection ruleset. In the example below, the tags that are being called out have been seen in multiple Apple phishing kits, and should be inspected immediately.
+Named detection rules in Kit Hunter exist because various URLs, functions, author names, brands, etc. have been frequently observed during testing and phishing kit processing. In other words, the phishing kits with named detections are so frequent in the wild, they warranted their own ruleset.
+
+In the example below, the tags that are being called out have been seen in multiple Apple phishing kits, and should be inspected immediately.
 
 ```
 | ==============================================================================

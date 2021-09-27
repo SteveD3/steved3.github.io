@@ -14,6 +14,7 @@ permalink: /categories/
   <button class="tablinks" onclick="openCat(event, 'Phishing')">Phishing</button>
   <button class="tablinks" onclick="openCat(event, 'Code')">Code</button>
   <button class="tablinks" onclick="openCat(event, 'Media')">Media</button>
+  <button class="tablinks" onclick="openCat(event, 'KHdocs')">Kit Hunter Documentation</button>
 </div>
 
 <div id="General" class="tabcontent">
@@ -67,6 +68,21 @@ permalink: /categories/
       <th>TITLE:</th>
     </tr>
     {% for post in site.categories.media %}
+    <tr>
+      <td>{{ post.date | date_to_string }}</td>
+      <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
+<div id="KHdocs" class="tabcontent">
+  <table>
+    <tr>
+      <th>DATE:</th>
+      <th>TITLE:</th>
+    </tr>
+    {% for post in site.categories.khdocs %}
     <tr>
       <td>{{ post.date | date_to_string }}</td>
       <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>

@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /khdocs/
+title: Kit Hunter Documentation
+---
+<center>
+  <h1>-Kit Hunter Documentation-</h1>
+</center>
+<p>Here are all the posts tagged under the KHdocs label.</p>
+<table>
+  <tr>
+    <th>DATE:</th>
+    <th>TITLE:</th>
+  </tr>
+  {% for post in site.categories.khdocs %}
+  <tr>
+    <td>{{ post.date | date_to_string }}</td>
+    <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+  </tr>
+  {% endfor %}
+</table>

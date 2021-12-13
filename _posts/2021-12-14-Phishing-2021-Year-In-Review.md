@@ -6,15 +6,34 @@ date: 2021-12-14
 description: I've spent 2021 collecting phishing kits and developing a tool to help defenders. Here are some of the things I've observed and learned over the last year.
 image: /images/stock/phishing_keyboard.jpg
 ---
-## Phishing is still a major problem
+
+# Phishing is still a major problem
 
 If this year has taught me anything, it’s that phishing is still a problem, and it’s one that isn’t going away any time soon. With 2021 winding down, it’s the perfect time to look back at all my research and offer up some thoughts and details concerning the interesting and important aspects of what I observed.
 
+## Table of Contents <a name="toc"></a>
+
+1. [By the Numbers](#numbers)<br>
+   I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Log Traffic](#traffic)<br>
+   II.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Operating Systems](#os)<br>
+2. [Targeted Brands](#brands)<br>
+   I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Social Brands](#social)<br>
+   II.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ISP & Tech Services](#isp-tech)<br>
+   III.&nbsp;&nbsp;&nbsp;&nbsp;[Banking](#banking)<br>
+3. [Pandemic Phishing](#cov19)
+4. [Obfuscation and Control](#obfu)<br>
+   I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Redirection](#redir)<br>
+   II.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configuration](#config)<br>
+   III.&nbsp;&nbsp;&nbsp;&nbsp;[Telegram](#tele)<br>
+   IV.&nbsp;&nbsp;&nbsp;&nbsp;[Third-party Tools](#thirdpty)<br>
+5. [Phishing in the Gig Economy](#fiverr)
+6. [Conclusion](#conclude)
+
+---
+# By The Numbers <a name="numbers"></a>
 Throughout 2021, I’ve been working on maintaining Kit Hunter. [Kit Hunter is my Python project](https://steved3.io/data/Kit-Hunter-Version-2.0/2021/09/06/) that aims to help system admins protect their websites and servers. The project took off, and in September I released a massive update that included a number of requested functions, as well as a complete overhaul to its core functionality. In order to [maintain Kit Hunter](https://steved3.io/data/Kit-Hunter-2.0-Getting-Started/2021/09/07/), I need to constantly test the application, as well as its detection models.
 
 To do this, I need to collect phishing kits.
-
-## By the Numbers
 
 >**Disclaimer:** The data used in this report was collected between 01 January 2021 and 06 December 2021. The early cutoff gave me time to compile information and write the report. As such, Q4 2021 is only two-thirds of the way complete. I would also like to thank the following people who helped me with research, writing, code, or just in general over the last year, including my editor Amanda. Their Twitter handles are below.
 >
@@ -40,7 +59,10 @@ While most of my work is automated, I do manually check domains as well.  This s
 
 In short, it was a productive year.
 
-## Log Traffic
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+## Log Traffic <a name="traffic"></a>
 
 Sometimes I collect log information from my searches that records details on the victim of a given phishing attack. If there is personally identifiable information (PII) and/or credentials in the logs, I report the information to the targeted brand. I only keep  log data  that p concerns device details and geolocation. The geolocation data isn’t all that interesting, since the majority of victims came from the United States, UK, or Europe.
 
@@ -50,7 +72,10 @@ The iPhone operating system was followed by Macintosh’s MacOS as the second mo
 
 There was a wide range of browsers within the logs, with Safari, Firefox, Edge, Opera, and Chrome (in no particular order) all making  an appearance. The browser versions were (for the most part) all recent releases, or versions that were within a patch or two of being current. Still, there were more than a few browsers that were end-of-life, which makes sense considering the operating system / device breakdown.
 
-## Operating Systems
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+## Operating Systems <a name="os"></a>
 
 #### Android
 
@@ -68,7 +93,10 @@ Named distribution wise, Ubuntu was the top record in the logs for Linux. Howeve
 
 It will come as no shock to learn that Windows 10 was the most common version of Windows seen in the logs. What did stand out was the fact that Windows 8, Windows 7, Server 2003, Vista, and even Windows XP all made an appearance. Edge was a common browser among the builds, but because of the age range, there were also instances of Internet Explorer in the mix. This is in addition to the usage of Firefox and Chrome.
 
-## Targeted Brands
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+# Targeted Brands <a name="brands"></a>
 
 Criminals running phishing campaigns are consistently spoofing brands. But they’re not perfect. Often, a kit will be developed for one brand, and then altered slightly to target a similar brand.
 
@@ -84,15 +112,21 @@ There were a few interesting elements of overlap in these kits, showing a proces
 >
 >2. The footer on the phishing page contains both UPS and USPS elements. Even though care was taken to get the branding in place, it feels as if the developers used the “replace” function in Notepad, and just swapped out some text and image elements. A whole section related to USPS websites, including the National Postal Museum are clearly present on the UPS kits.
 
-Other notable shipping scams in my collection this year include FedEx, Post and Parcel, PostPay, and Royal Mail.
+Other notable shipping scams in my collection this year include FedEx, Post and Parcel, Postpay, and Royal Mail.
 
-#### Social Brands
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+### Social Brands <a name="social"></a>
 
 The top social brands in my phishing collection this year were Facebook, WhatsApp, and LinkedIn. Yet, that doesn’t exclude services like Twitter, Flickr, Match, OurTime, Daum, Naver, Sina, as well as 163 and 126.
 
 Targeting social media is a big deal for criminals running phishing campaigns, since people often recycle passwords between social accounts, or use easily guessed variations. Not to mention, compromising a social account can lead to additional victims, as the trust dynamic between people online can be exploited. There’s also the fact that for professional networks, like LinkedIn, compromising an account can expose other people, corporations, and their professional partners.
 
-#### ISPs and Tech Services
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+### ISPs and Tech Services <a name="isp-tech"></a>
 
 This type of phishing, excluding Microsoft Office, was a massive focal point as the year went by. Brands such as Spectrum, Netflix, WeTransfer, Dropbox, AT&T, Comcast (Xfinity), Salesforce, Optus, Frontier, Spotify, Wowway, Deloitte, Rackspace, DocuSign, Orange, and GoDaddy, just to name a few.
 
@@ -107,7 +141,10 @@ Given the widespread use of Microsoft Office, criminals will often add Office 36
 
 Corporate phishing is a big deal, because valid and verified accounts can be collected or sold to others, who then use this access for additional attacks, up to and including ransomware. There is a whole “business cycle” in the criminal world dedicated to this byproduct of phishing. Access brokers will leverage phished credentials, but they also focus on vulnerable systems and services. So while phished credentials are a major risk, they're not the only risk a given company will face.
 
-#### Banking
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+### Banking <a name="banking"></a>
 
 Outside of phishing attacks targeting Microsoft Office users and consumer tech brands, the other major theme and focus of the year was banking. Phishing in the financial services industry is huge, and a main focal point for criminals operating in the phishing space.
 
@@ -126,11 +163,14 @@ Here is a breakdown of the top financial phishing kits collected this year.
 9. USAA
 10. HSBC
 
-In addition to the top 10, other banks include TD Canada, Halifax, Santander, PNC, CIBC, Huntington, Fifth Third Bank, RBC Royal Bank, Regions Bank, KeyBank, BECU, Alaska USA, Square, Cashapp, TurboTax, QuickBooks, and Capital One.
+In addition to the top 10, other banks include TD Canada, Halifax, Santander, PNC, CIBC, Huntington, Fifth Third Bank, RBC Royal Bank, Regions Bank, KeyBank, BECU, Alaska USA, Square, Cash App, TurboTax, QuickBooks, and Capital One.
 
 Moreover, crypto currencies were a popular target, with Coinbase being the leading brand targeted in that space. Brands like Credit Karma, Equifax, and TransUnion also had kits discovered this year, proving that criminals target the financial sector across a wide spectrum of brands and services. There’s absolutely nothing they won’t try and get their hands on.
 
-## Pandemic Phishing
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+# Pandemic Phishing <a name="cov19"></a>
 
 In early 2021, I came across several phishing kits targeting pandemic unemployment assistance (PUA) programs. These are programs designed to assist those who needed help during the COVID-19 lockdowns, and were essential services for millions of Americans.
 
@@ -166,11 +206,48 @@ If and when the victim was successfully hooked, the scam continued and they were
 
 It isn’t clear how successful these campaigns were, but the timing of them is what made them memorable. Criminals will always find a way to leverage large events or circumstances, and this is a perfect example of that.
 
-## Obfuscation and Control
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+# Obfuscation and Control <a name="obfu"></a>
 
 While developing their phishing kits, criminals go to great lengths to hide their activities. From redirection scripts, to various types of blocking mechanisms targeting scanners, security vendors, and even researchers like myself, criminals are constantly developing new security tools. Here are a sampling of some of their methods.
 
-#### Redirection
+### Obfuscation
+
+There are more than **1,200 kits in my collection leveraging some sort of obfuscated code**. The obfuscation attempts are a mix of JavaScript, base64, PHP encryption, and other techniques. By using such tricks, the goal of the developer is to hide the content of the phishing kit from passive scanners and observation. It's also an anti-piracy measure, as the methods sometimes prevent rippers (criminals who steal code or techniques from other criminals) from cloning code wholesale.
+
+Here is a breakdown of some of the more common visual obfuscation techniques.
+
+1. ```document.write(unescape(```
+2. ```base64_decode(```
+3. ionCube
+4. FOPO - Free Online PHP Obfuscator
+5. MessPHP
+
+Here are some other examples of obfuscation, as taken from actual kits in my collection:
+
+>Example A: From a YASSCOM phishing kit, and has been redacted for publication (hxxps)
+```
+$a = "p"; $b = "a"; $c = "y"; $d = "p"; $e = "a"; $f = "l";
+$xDIRx = "hxxps://www.".$a.$b.$c.$d.$e.$f.".com
+```
+>Example B: "Sign In"
+```
+S&#105;&#103;n &#73;&#110;
+&#83;&#105;&#103;&#110;&#32;&#73;&#110;
+```
+>Example C: "Terms of Use"
+```
+&#84;&#101;&#114;&#109;&#115;&#32;&#111;&#102;&#32;&#85;&#115;&#101;
+```
+
+None of the obfuscation methods used are 100% foolproof. When scanning for kits, such techniques generate an immediate red flag, as it is clear someone is trying to hide something.
+
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+### Redirection <a name="redir"></a>
 
 In the example below, we see a redirection page that is part of the main phishing kit. Here the criminal stands up a landing page on a domain that is different from the one used for the actual phishing attack. This keeps the main domain hidden, while enabling them to shift landing domains as needed.
 
@@ -179,8 +256,11 @@ At the time this report was being written, this particular redirection script ha
 ![The redirection landing page is used to hide the main domain used for the phishing attack.][img2]
 <br><br>
 **Figure 5:** A redirection page is used to protect the main domain used for the phishing attack.
+<br><br>
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
 
-#### Configuration
+---
+### Configuration <a name="config"></a>
 
 Another way criminals obfuscate and control victims to their phishing kits is by using targeted controls. Criminals use these controls to determine things like who can access the phishing kit’s landing page, how often they can visit, how data is collected, as well as what sort of data is collected, and more.
 
@@ -215,11 +295,22 @@ The configuration also has proxy detection and blocking, crawler detection and b
 
 This configuration will also control how the victim’s information is sent to the criminal. Normally phishing kits will email the victim’s data to the criminal, but this kit has another option outside of email - Telegram.
 
-#### Telegram
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+### Telegram <a name="tele"></a>
 
 I started seeing Telegram-based data exfiltration as far back as December 2020. At the time, the option was available, but not really used in the phishing kits that were coming into my collection. Then in January 2021, all of that changed. To date, **I have identified more than 300 unique Telegram IDs** based on my phishing kit collection. There is more that can be done with Telegram on the research side of things, but the exact nature of that isn’t something I’m going to put in a blog post. Researchers who have questions are free to find me in the usual haunts and ask away.
 
-#### Third-party Tools
+<br><br>
+![Source code from a phishing kit using Telegram to exfiltrate victim data.][img10]
+<br><br>
+**Figure 6:** Source code from a phishing kit shows how victim data is being exfiltrated via Telegram.
+
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+### Third-party Tools <a name="thirdpty"></a>
 
 Criminals use a lot of legitimate third-party tools in their development cycles and functionality. They do so for the exact same reasons that legitimate users leverage these services. For one, they're cheap, and two - they work. Google Forms is one of the more popular services, especially in the cryptocurrency phishing arena, but there are others out there that I want to examine.
 
@@ -239,7 +330,7 @@ At the time this report was written, I’ve collected more than 1,200 kits this 
 <br><br>
 ![LogoKit source code, taken from a Microsoft Office phishing kit deployed in November, 2020.][img4]
 <br><br>
-**Figure 6:** An example of LogoKit source code, taken from a Microsoft Office phishing kit deployed in November, 2020.
+**Figure 7:** An example of LogoKit source code, taken from a Microsoft Office phishing kit deployed in November, 2020.
 
 **JayBizzle**
 
@@ -251,9 +342,13 @@ Don’t get it twisted though, I’ve seen some strange anti-bot scripts used in
 <br><br>
 ![Criminals love to use open source software in their phishing kits, such as this example leveraging Crawler Detect.][img5]
 <br><br>
-**Figure 7:** Criminals love to use open source code in their phishing kits, such as Crawler Detect by JayBizzle.
+**Figure 8:** Criminals love to use open source code in their phishing kits, such as Crawler Detect by JayBizzle.
+<br><br>
 
-## The Curious Ads
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+# Phishing in the Gig Economy <a name="fiverr"></a>
 
 Phishing kit developers often work in groups. Coding and developing becomes a sort of team sport, with each developer trying to gain a reputation for being the one who can code the sickest kits that are FUD - fully undetectable. However, they also freelance their development talents, and will code custom projects for people who are willing to pay. Now, these transactions are often conducted on private forums, closed groups, or direct messages. But sometimes, you come across public offers.
 
@@ -261,7 +356,7 @@ The final thing I have to share today related to my phishing research this year,
 <br><br>
 ![A Fiverr account offering to develop customized phishing kits.][img8]
 <br><br>
-**Figure 8:** A person on Fiverr has offered to develop custom phishing kits.
+**Figure 9:** A person on Fiverr has offered to develop custom phishing kits.
 
 In this example, the person on Fiverr has three tiers of code they are willing to develop. The first, which sells for $55 USD, contains a single page with a login box, and the victim’s credentials will be stored within a text file, database, and email. For $105 USD, the offer adds an additional page. For $140 USD, the offer extends to three pages in total, but the seller does encourage contacts in order to price out different custom order options.
 
@@ -269,17 +364,20 @@ Although the  accounts have been banned, it is still possible to find similar of
 <br><br>
 ![A Fiverr account discovered in December, 2021 offering to develop customized phishing kits.][img9]
 <br><br>
-**Figure 9:** An account on Fiverr discovered in December, 2021 offers to develop custom phishing kits.
+**Figure 10:** An account on Fiverr discovered in December, 2021 offers to develop custom phishing kits.
 
 Same deal, only this seller offers different pricing $80-$220 USD, and different features. Their offer is centered on financial scams, with a promise to capture banking details, card details, and even offer a redirection link. For the max price, you can order “all types of pages” from this individual.
 
-## Conclusion
+<a class="top" href="#toc"> -[ Return &#x2B0F; ]- </a>
+
+---
+# Conclusion <a name="conclude"></a>
 
 These days, phishing is a part of the first wave of attacks against a person or organization, and the process and code driving these attacks has improved over the years to increase their effectiveness. The criminal economy is a powerful one, and phishing is absolutely a major part of it.
 
 The reality is this, phishing is one of those problems that doesn’t have a silver-bullet fix, because there are so many moving parts. It’s hard to predict what criminals will do next. Since humans are still a vital aspect in phishing, they will remain the weakest link in the chain.
 
-#### Business Defense
+### Business Defense
 
 While the opening to my conclusion comes off as doom and gloom, it isn’t meant to be. That’s just reality. It doesn’t mean that defenders can’t take action. Phishing has been an element in many security incidents over the last several years, because it’s effective. Phishing in the corporate world takes advantage of a victim’s workflow, as well as other things such as password reuse, a lack of multi-factor authentication, and loose email / transactional policies. Attacks on this front have led to W-2 records being compromised, threat actors gaining elevated privileges on the network, and malware (i.e. ransomware) being installed. All because of phishing.
 
@@ -287,7 +385,7 @@ So yeah, people may be the weakest link in some cases, but they can also be the 
 
 When conducting phishing training, remember to test corporate attacks and consumer attack types. Your staff are consumers too, and they can easily be attacked outside of the office, so make sure training covers as much as possible, and make sure that it’s ongoing.
 
-#### Home users
+### Home users
 
 I cannot stress the importance of using 2FA and password managers enough. These defenses are critical, and they work well too, because criminals are developing processes and techniques to try and bypass them.
 
@@ -310,3 +408,4 @@ Thanks for taking the time to read this. I hope that everyone has a safe start t
 [img7]:https://steved3.io/images/YIR/figure_8.jpg
 [img8]:https://steved3.io/images/YIR/figure_6.jpg
 [img9]:https://steved3.io/images/YIR/figure_9.jpg
+[img10]:https://steved3.io/images/YIR/figure_9a.jpg

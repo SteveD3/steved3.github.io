@@ -128,7 +128,7 @@ Targeting social media is a big deal for criminals running phishing campaigns, s
 ---
 ### ISPs and Tech Services <a name="isp-tech"></a>
 
-This type of phishing, excluding Microsoft Office, was a massive focal point as the year went by. Brands such as Spectrum, Netflix, WeTransfer, Dropbox, AT&T, Comcast (Xfinity), Salesforce, Optus, Frontier, Spotify, Wowway, Deloitte, Rackspace, DocuSign, Orange, and GoDaddy, just to name a few.
+This type of phishing, excluding Microsoft Office, was a massive focal point as the year went by. Brands such as Google, Spectrum, Netflix, WeTransfer, Dropbox, AT&T, Comcast (Xfinity), Salesforce, Optus, Frontier, Spotify, Wowway, Deloitte, Rackspace, DocuSign, Orange, and GoDaddy, just to name a few.
 
 Dropbox and DocuSign were the most common, given their connection to high-value corporate phishing targets. On the home front, Netflix was the main consumer target. ISPs were quite common as well. But nothing - absolutely nothing - tops the number of Microsoft Office kits collected this year.
 

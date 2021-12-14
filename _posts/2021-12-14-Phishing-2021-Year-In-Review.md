@@ -41,7 +41,7 @@ To do this, I need to collect phishing kits.
 >```@olihough86``` ```@dave_daves``` ```@JCyberSec_```
 >```@n0p1shing``` ```@ANeilan``` ```@selenalarson```
 >```@sysgoblin``` ```@PaulWebSec``` ```@BushidoToken```
->```@sjhilt``` ```@phage_nz```
+>```@sjhilt``` ```@phage_nz``` ```@jabreity```
 
 In 2021, I collected over **5,000 phishing kits**, which gave me some unique insight into development practices, criminal economics, deployment, and infrastructure. In addition to the phishing kits, I also got lots of logs, which offers a limited view into victimology. Given that the majority of the victims to the websites where I obtained the logs came from the United States, U.K, or Europe, I mostly focused on browsers and device IDs.
 
@@ -262,7 +262,7 @@ At the time this report was being written, this particular redirection script ha
 ---
 ### Configuration <a name="config"></a>
 
-Another way criminals obfuscate and control victims to their phishing kits is by using targeted controls. Criminals use these controls to determine things like who can access the phishing kit’s landing page, how often they can visit, how data is collected, as well as what sort of data is collected, and more.
+Another way criminals obfuscate their phishing kits is by using targeted controls. Criminals use these controls to determine things like who can access the phishing kit’s landing page, how often they can visit, how data is collected, as well as what sort of data is collected, and more.
 
 Below is a sample configuration file from a kit targeting Citizens Bank:
 

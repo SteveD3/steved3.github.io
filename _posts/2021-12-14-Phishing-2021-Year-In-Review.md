@@ -68,7 +68,7 @@ Sometimes I collect log information from my searches that records details on the
 
 When it comes to the device information, there are a lot of details to unravel. For example, iOS was the top operating system in the logs. This makes sense considering that many phishing kits target mobile users.
 
-The iPhone operating system was followed by Macintosh’s MacOS as the second most popular operating system. Linux (Ubuntu) was third, which could also indicate the presence of researchers or automated security scanning. Finally, Windows was the fourth most common operating system observed.
+The iPhone operating system was followed by Apple’s MacOS as the second most popular operating system. Linux (Ubuntu) was third, which could also indicate the presence of researchers or automated security scanning. Finally, Windows was the fourth most common operating system observed.
 
 There was a wide range of browsers within the logs, with Safari, Firefox, Edge, Opera, and Chrome (in no particular order) all making  an appearance. The browser versions were (for the most part) all recent releases, or versions that were within a patch or two of being current. Still, there were more than a few browsers that were end-of-life, which makes sense considering the operating system / device breakdown.
 
@@ -98,9 +98,9 @@ It will come as no shock to learn that Windows 10 was the most common version of
 ---
 # Targeted Brands <a name="brands"></a>
 
-Criminals running phishing campaigns are consistently spoofing brands. But they’re not perfect. Often, a kit will be developed for one brand, and then altered slightly to target a similar brand.
+Criminals running phishing campaigns are consistently spoofing brands. But they’re not perfect. Often, a phishing kit will be developed for one brand, and then altered slightly to target a similar brand.
 
-A good example of this are some of the kits targeting United Parcel Service (UPS) and the United States Postal Service (USPS). The USPS kits were first, leveraging a missed delivery scam in order to get victims to share personal information and financial data. The scams were successful, so the criminals slightly altered the USPS kits and moved to target UPS as well.
+A good example of this are some of the phishing kits targeting United Parcel Service (UPS) and the United States Postal Service (USPS). The USPS kits were first, leveraging a missed delivery scam in order to get victims to share personal information and financial data. The scams were successful, so the criminals slightly altered the USPS kits and moved to target UPS as well.
 
 There were a few interesting elements of overlap in these kits, showing a process where development is hurried along in order to get the final product out the door as quickly as possible. Think of it as a rushed “go-to-market” strategy.
 <br><br>
@@ -119,7 +119,7 @@ Other notable shipping scams in my collection this year include FedEx, Post and 
 ---
 ### Social Brands <a name="social"></a>
 
-The top social brands in my phishing collection this year were Facebook, WhatsApp, and LinkedIn. Yet, that doesn’t exclude services like Twitter, Flickr, Match, OurTime, Daum, Naver, Sina, as well as 163 and 126.
+The top social brands in my phishing collection this year were Facebook, WhatsApp, and LinkedIn. Yet, that doesn’t exclude services like Twitter, Flickr, Match, OurTime, Daum, Naver, and Sina.
 
 Targeting social media is a big deal for criminals running phishing campaigns, since people often recycle passwords between social accounts, or use easily guessed variations. Not to mention, compromising a social account can lead to additional victims, as the trust dynamic between people online can be exploited. There’s also the fact that for professional networks, like LinkedIn, compromising an account can expose other people, corporations, and their professional partners.
 

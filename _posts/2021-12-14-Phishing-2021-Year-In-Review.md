@@ -132,7 +132,7 @@ This type of phishing, excluding Microsoft Office, was a massive focal point as 
 
 Dropbox and DocuSign were the most common, given their connection to high-value corporate phishing targets. On the home front, Netflix was the main consumer target. ISPs were quite common as well. But nothing - absolutely nothing - tops the number of Microsoft Office kits collected this year.
 
->**Microsoft was the number one targeted brand**, as criminals developed and pushed several variants of kits targeting Office 365 and OneDrive.
+>**Microsoft was the number one targeted brand**, as criminals developed and pushed several phishing kit variants targeting Office 365 and OneDrive.
 Using just the Microsoft detections from Kit Hunter, with no other branding detections or URL detections, a scan of my collected phishing kits returned 2,640 results.
 >
 >This means that **52% of the phishing kits scanned were related to Microsoft Office in some way**, either directly or by leveraging elements of Microsoft Office in the attack.
@@ -251,7 +251,7 @@ None of the obfuscation methods used are 100% foolproof. When scanning for kits,
 
 In the example below, we see a redirection page that is part of the main phishing kit. Here the criminal stands up a landing page on a domain that is different from the one used for the actual phishing attack. This keeps the main domain hidden, while enabling them to shift landing domains as needed.
 
-At the time this report was being written, this particular redirection script had been seen 82 times, making it one of the more common methods seen with kits targeting Chase bank.
+At the time this report was being written, this particular redirection script had been seen 82 times, making it one of the more common methods seen with phishing kits targeting Chase bank.
 <br><br>
 ![The redirection landing page is used to hide the main domain used for the phishing attack.][img2]
 <br><br>

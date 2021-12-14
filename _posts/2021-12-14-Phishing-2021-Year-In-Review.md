@@ -35,7 +35,7 @@ Throughout 2021, I’ve been working on maintaining Kit Hunter. [Kit Hunter is m
 
 To do this, I need to collect phishing kits.
 
->**Disclaimer:** The data used in this report was collected between 01 January 2021 and 06 December 2021. The early cutoff gave me time to compile information and write the report. As such, Q4 2021 is only two-thirds of the way complete. I would also like to thank the following people who helped me with research, writing, code, or just in general over the last year, including my editor Amanda. Their Twitter handles are below.
+>**Disclaimer:** The data used in this report was collected between 01 January 2021 and 06 December 2021. The early cutoff gave me time to compile information and write the report. As such, Q4 2021 is only two-thirds of the way complete. This report was written on 09-December-2021, and updated on 14-December-2021. I would also like to thank the following people who helped me with research, writing, code, or just in general over the last year, including my editor Amanda. Their Twitter handles are below.
 >
 >```@AmandaFGoedde``` ```@nullcookies``` ```@dyngnosis```
 >```@olihough86``` ```@dave_daves``` ```@JCyberSec_```
@@ -64,7 +64,7 @@ In short, it was a productive year.
 ---
 ## Log Traffic <a name="traffic"></a>
 
-Sometimes I collect log information from my searches that records details on the victim of a given phishing attack. If there is personally identifiable information (PII) and/or credentials in the logs, I report the information to the targeted brand. I only keep  log data  that p concerns device details and geolocation. The geolocation data isn’t all that interesting, since the majority of victims came from the United States, UK, or Europe.
+Sometimes I collect log information from my searches that records details on the victim of a given phishing attack. If there is personally identifiable information (PII) and/or credentials in the logs, I report the information to the targeted brand. I only keep log data that concerns device details and geolocation. The geolocation data isn’t all that interesting, since the majority of victims came from the United States, UK, or Europe.
 
 When it comes to the device information, there are a lot of details to unravel. For example, iOS was the top operating system in the logs. This makes sense considering that many phishing kits target mobile users.
 
@@ -128,7 +128,7 @@ Targeting social media is a big deal for criminals running phishing campaigns, s
 ---
 ### ISPs and Tech Services <a name="isp-tech"></a>
 
-This type of phishing, excluding Microsoft Office, was a massive focal point as the year went by. Brands such as Google, Spectrum, Netflix, WeTransfer, Dropbox, AT&T, Comcast (Xfinity), Salesforce, Optus, Frontier, Spotify, Wowway, Deloitte, Rackspace, DocuSign, Orange, and GoDaddy, just to name a few.
+This type of phishing, excluding Microsoft Office, was a massive focal point as the year went by. Brands such as Google, Spectrum, Netflix, WeTransfer, DocuSign, and Dropbox, were all top targets. However, there were dozens of phishing kits targeting several other brands, including AT&T, Comcast (Xfinity), Salesforce, Spotify, Deloitte, Rackspace, and GoDaddy, just to name a few.
 
 Dropbox and DocuSign were the most common, given their connection to high-value corporate phishing targets. On the home front, Netflix was the main consumer target. ISPs were quite common as well. But nothing - absolutely nothing - tops the number of Microsoft Office kits collected this year.
 
@@ -182,7 +182,7 @@ In addition to New York, I’ve since discovered PUA scams targeting people in W
 <br><br>
 **Figure 2:** Examples of PUA scams targeting people in New York and Wisconsin.
 
-As COVID-19 lockdowns started to take hold and the public was gripped by daily reminders of the health risks and scarcity of basic goods and services, the phishing space became a strange place. All of the normal expected phishing attacks remained, from finance to social media, and streaming media, as well as gaming. However, criminals started to focus their efforts on topical things as well, but only passively.
+As COVID-19 lockdowns started to take hold and the public was gripped by daily reminders of the health risks and scarcity of basic goods and services, the phishing space became a strange place. All of the normal expected phishing attacks remained. There were phishing attacks targeting finance, streaming media, social networks, and gaming. However, criminals started to focus their efforts on topical things as well, but only passively.
 
 There were half-assed attempts to leverage COVID-19 and the public's drive to obtain information about, or access, to a vaccine. These attempts were somewhat successful, as they drove traffic to the domains, but the final result was a generic email phishing attempt. The image below is an example that leveraged the Centers for Disease Control and Prevention (CDC) and the Department of Energy in the United States.
 <br><br>
@@ -202,7 +202,7 @@ The critical thinking elements included the fact that existing talking points by
 
 The script also included an element of exclusivity, as victims were told they could only use the service if they received an email, or SMS, regarding their invitation, adding that they are “required to reply to this invitation within 24 hours of this notification.”
 
-If and when the victim was successfully hooked, the scam continued and they were directed to complete a form that included personal information, such as address, mobile phone number, mothers maiden name, and birthdate. From there, they were directed to a financial form that collected banking details and bank card information. Once all of that was submitted the victim was directed to the actual NHS website.
+If and when the victim was successfully hooked, the scam continued and they were directed to complete a form that included personal information, such as address, mobile phone number, mothers maiden name, and birthdate. From there, they were directed to a financial form that collected banking details and bank card data. Once all of that was submitted, the victim was directed to the actual NHS website.
 
 It isn’t clear how successful these campaigns were, but the timing of them is what made them memorable. Criminals will always find a way to leverage large events or circumstances, and this is a perfect example of that.
 
@@ -312,7 +312,7 @@ I started seeing Telegram-based data exfiltration as far back as December 2020. 
 ---
 ### Third-party Tools <a name="thirdpty"></a>
 
-Criminals use a lot of legitimate third-party tools in their development cycles and functionality. They do so for the exact same reasons that legitimate users leverage these services. For one, they're cheap, and two - they work. Google Forms is one of the more popular services, especially in the cryptocurrency phishing arena, but there are others out there that I want to examine.
+Criminals use a lot of legitimate third-party tools in their development cycles and functionality. They do so for the exact same reasons that legitimate users leverage these services. For one, most are free (as in beer), and two - they work. Google Forms is one of the more popular services, especially in the cryptocurrency phishing arena, but there are others out there that I want to examine.
 
 **Firebase**
 
@@ -391,7 +391,7 @@ I cannot stress the importance of using 2FA and password managers enough. These 
 
 2FA bypasses are not foolproof attacks, so criminals deal with more losses than successes. Reading between the lines, yes there are ways that 2FA can be bypassed, but that doesn’t mean the protection isn’t worth using.
 
-While on the topic, before the question is asked, no you shouldn’t use SMS as a means of authentication. I say that with a bit of a _“BUT”_ tone, because if SMS is all you have, then you need to use it and encourage your service provider to abandon it in favor of something stronger.
+While on the topic, before the question is asked, no you shouldn’t use SMS as a means of authentication. I write that with a bit of a _“BUT”_ tone, because if SMS is all you have, then you need to use it and encourage your service provider to abandon it in favor of something stronger.
 
 As for password managers, not only can they help by triggering an instant red flag (because a password manager won’t auto-fill a phishing website’s username and password fields), they make it hard for a criminal to guess or crack your password if a service is ever compromised.
 

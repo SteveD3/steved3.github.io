@@ -102,7 +102,7 @@ Criminals running phishing campaigns are consistently spoofing brands. But they�
 
 A good example of this are some of the phishing kits targeting United Parcel Service (UPS) and the United States Postal Service (USPS). The USPS kits were first, leveraging a missed delivery scam in order to get victims to share personal information and financial data. The scams were successful, so the criminals slightly altered the USPS kits and moved to target UPS as well.
 
-There were a few interesting elements of overlap in these kits, showing a process where development is hurried along in order to get the final product out the door as quickly as possible. Think of it as a rushed “go-to-market” strategy.
+There were a few interesting elements of overlap in the creation of these phishing kits, showing a process where development is hurried along in order to get the final product out the door as quickly as possible. Think of it as a rushed “go-to-market” strategy.
 <br><br>
 ![A UPS phishing kit still contains elements of the USPS phishing kit it was built on.][img1]
 <br><br>

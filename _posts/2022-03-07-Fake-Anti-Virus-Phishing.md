@@ -4,7 +4,7 @@ categories: phishing
 title: Fake AV phishing spikes in Q1 2022
 date: 2022-03-07
 description: There has been a noticeable uptick in the number of Fake Anti-Virus (Fake AV) phishing pages.
-image: https://steved3.io/images/stock/skull_red.jpg
+image: /images/stock/skull_red.jpg
 ---
 
 There has been a noticeable uptick in the number of Fake Anti-Virus (Fake AV) phishing pages in Q1 2022. During my normal daily phishing scans, I rarely (if ever) come across the source code for these scam pages. Yet, during the first quarter alone this year, I've collected more than 50 samples targeting users on Windows and Apple devices.

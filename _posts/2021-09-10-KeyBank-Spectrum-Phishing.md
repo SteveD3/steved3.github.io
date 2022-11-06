@@ -6,7 +6,6 @@ date: 2021-09-10
 description: A phishing attack targeting KeyBank users also attempts to snag Spectrum accounts.
 image: /images/phish-img.jpg
 ---
-## KeyBank challenge questions
 I received an interesting phishing email Wednesday (08-September-2021).
 
 The message claimed to be from KeyBank. The original encoded message, as it first appeared in my inbox, is below. The encoding likely helped the lure[^2] bypass email filtering.

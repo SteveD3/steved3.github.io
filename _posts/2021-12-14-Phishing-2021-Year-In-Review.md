@@ -7,8 +7,6 @@ description: I've spent 2021 collecting phishing kits and developing a tool to h
 image: /images/stock/phishing_keyboard.jpg
 ---
 
-# Phishing is still a major problem
-
 If this year has taught me anything, it’s that phishing is still a problem, and it’s one that isn’t going away any time soon. With 2021 winding down, it’s the perfect time to look back at all my research and offer up some thoughts and details concerning the interesting and important aspects of what I observed.
 
 ## Table of Contents <a name="toc"></a>

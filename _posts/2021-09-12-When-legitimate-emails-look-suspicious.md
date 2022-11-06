@@ -6,7 +6,6 @@ date: 2021-09-12
 description: A legitimate SharePoint email looks like a clever phishing attack.
 image: /images/posts/adobe-stock-sharepoint2.jpg
 ---
-## An interesting example
 
 <img style="float: right; margin:1em;" src="/images/posts/sharepoint_email.jpg">Awareness training programs frequently encourage users to report emails as phishing if they suspect anything unusual.
 

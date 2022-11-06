@@ -7,7 +7,6 @@ description: Recent research shows that criminals are still jacking code to crea
 image: /images/stock/phishing_email_icon_abstract.jpg
 ---
 
-## Hybrid phishing kits
 Over the years, criminals have constantly lived up to the saying that there is no honor among thieves. They're criminals, so it isn't like we, the defenders, expect anything less.
 
 However, [research from Microsoft](https://www.microsoft.com/security/blog/2021/10/21/franken-phish-todayzoo-built-from-other-phishing-kits/), where they explore a hybrid phishing kit called TodayZoo, recently caught my attention. It's a solid example of crooks stealing from crooks.

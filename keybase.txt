@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/steved3
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://steved3.io
+  * I am steved3 (https://keybase.io/steved3) on keybase.
+  * I have a public key with fingerprint 9D3A 6A92 8626 C57C 988B  539C DBE4 3E6F CC8B 4644
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c199ca4f7f66600514eff4e2ff03889d0610a55daedb57a69ae0d4f30c2224cf0a",
+      "fingerprint": "9d3a6a928626c57c988b539cdbe43e6fcc8b4644",
+      "host": "keybase.io",
+      "key_id": "dbe43e6fcc8b4644",
+      "kid": "0101c199ca4f7f66600514eff4e2ff03889d0610a55daedb57a69ae0d4f30c2224cf0a",
+      "uid": "2087549f484c2ffb4dd538bb26603f00",
+      "username": "steved3"
+    },
+    "service": {
+      "hostname": "steved3.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1667775222,
+  "expire_in": 157680000,
+  "prev": "2837310a510be58ca67981e9d3d327838d67440016151193554e99455ac9734e",
+  "seqno": 215,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMK5AnicrVJdbBRVGN22lJ+FJa2EhypGGU1ZmxbvzP2ZmUUggbZpDajRxCKmXWfm
+3mnHpTvbnelWAjVULVj+1qSWQKyFpqEtIg1KNalo0zVUCRWRREWtDVGrcbEKWgok
+RfFO1QcTH70vN/fLOec757vfqUCWz58xOr7K/mhXaXHGSGpfvc+oCV3bIug23SyE
+tggRNnOxTZQ5bjhiUSEkABGIhqiqhoZM2SSEAIBFxEwTMck0AVQUlQIiAg1jqjGq
+Y1kjqsYARSYEhiRJyDCBJhQKphWtZvFY3Iq6XFalUCOaKilEIgaWDVVRdAxVg+oM
+QUZMw1B0RBDixBrb8RjcnK45bLll8xp/hGfs/Qf+f/ZdPyMnAUXGSDWRggzO1xGl
+GCq6LnFhaALgAR0Wj2q1jKMdlyUYhUJjocCLCctg3ly9IP8G/BUmFrdd27A38XqN
+68ackMdzN8c8YAPTw39LhHUrSvkQOSPB4o5lR4WQyJGGa3maIiGyLGPuvFBgz8Ss
+OAtbHgLLRAH8eH1YwouiQBl6wUWgM6wYGpFVRWT8RyiUZAUqlMgIASASEYuiCjFG
+TFURxpqhyhAxwQtVF7WFkCRiblSr9gJZ1VHNrY8zofH9oa9n+TL8vtnZmd56+fzz
+cv5ZuiUD829V1z0N21svB7r26L+/VBVEfQfKSy+3Lv7C2Tg+n165pyhZelcw1VHb
+cLYS9O5Ynzncs3p6ZXfJRGviwsRa5d62n26bfQP0TF+XYPL2wT2Pnm/3T/YOouSZ
+otdeP7yzrnju1AMln+3ID3y683h67motEkSLijZsbFo+q+XSHebJ7Ws+ZvnfNt9c
+vH0wrzz3Yuc7x6/oj8+JPHnYv/vUg9k52wLB3qN731thLvzmAjxUUN5V6/eBDcde
+bR26fmMBWvbl2+nE8OTR86fDIwdg+s2zl56vHGhrajmRmxxZ+1zylSm7mfxakd+y
+bWVqTU6y6o+x/g9+Tst3PvHjTWdRbl/Z/Xuf1fOWjaeaGi9WTkRWHQuQ0w0lZTTV
+GRw98dv0C0NbfbfSU7/cXfZIz+cNuzJ/6KxbeO6NM+vOrZs3uj+rq7L/SMfEu+v3
+kzlX73sLLbn6cKK77fvxgWtj37W/HGgOVhTvXhrQOo4Mb2V5Y1Xo4CePdX/Yu2I0
+66uCqYLsvpqHXlw6smDyZKxi31P94T8BebKBWQ==
+=bTpc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/steved3
+
+==================================================================

@@ -7,11 +7,11 @@ description: A legitimate SharePoint email looks like a clever phishing attack.
 image: /images/posts/adobe-stock-sharepoint2.jpg
 ---
 
-<img style="float: right; margin:1em;" src="/images/posts/sharepoint_email.jpg">Awareness training programs frequently encourage users to report emails as phishing if they suspect anything unusual.
+Awareness training programs frequently encourage users to report emails as phishing if they suspect anything unusual.
 
 For example, if the `From` address looks shady, or if the email message itself appears to invoke a sense of urgency, or warns of some sort of pending problem unless action is taken immediately, then users should report the email to IT, or the anti-phishing group.
 
-In fact, one of the most common phishing attacks seen in corporate settings uses a lure[^1] that warns about account storage overages, and encourages the victim to login and take action. If they follow the link in the lure, they're taken to a landing page[^2] where their username and password are compromised.
+<img style="float: right; margin:1em;" src="/images/posts/sharepoint_email.jpg">In fact, one of the most common phishing attacks seen in corporate settings uses a lure[^1] that warns about account storage overages, and encourages the victim to login and take action. If they follow the link in the lure, they're taken to a landing page[^2] where their username and password are compromised.
 
 This scam has many flavors, some focus on email, others focus on file and document storage, or even cloud-based services.
 

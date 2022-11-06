@@ -7,3 +7,4 @@ _config-dev.yml
 images/photothumb.db
 images/posts/photothumb.db
 images/YIR/photothumb.db
+feed-xml-backup.txt

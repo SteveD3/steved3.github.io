@@ -4,8 +4,9 @@ categories: general
 title: Random Thoughts and Things
 date: 2022-11-05
 description: A lot has been happening since I last posted. I got a new job, house, and Twitter is imploding.
-image: /images/random_blog.jpg
 ---
+![A lot has been happening since I last posted. I got a new job, house, and Twitter is imploding.][img1]
+
 It's been a while since I posted an update to the website. So here's a quick recap.
 
 I started a new job in March, and  it's kept me busy. At the end of the day, what I want to do is just decompress. So I've been turning to music and video games mostly, instead of blogging or phishing research.
@@ -21,3 +22,5 @@ Twitter can be a cesspool at times, a hellscape that is rife with abuse and absu
 So that's it in a nutshell.
 
 If Twitter dies, it dies. I will be sad, but between this blog, IRC, Mastondon, Discord, and good old-fashioned texting, I can keep in touch with the people who have made my world better by them being in it.
+
+[img1]:https://steved3.io/images/random_blog.jpg

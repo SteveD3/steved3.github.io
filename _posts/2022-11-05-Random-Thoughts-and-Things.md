@@ -4,7 +4,7 @@ categories: general
 title: Random Thoughts and Things
 date: 2022-11-05
 description: A lot has been happening since I last posted. I got a new job, house, and Twitter is imploding.
-image: /images/random_blog.jpg
+image: https://steved3.io/images/random_blog.jpg
 ---
 It's been a while since I posted an update to the website. So here's a quick recap.
 

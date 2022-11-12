@@ -22,6 +22,10 @@ Gift card scams are social engineering attacks, and often leverage an impersonat
 
 Sometimes, the scammer will claim to be the victim's boss, and even go so far as to spoof company emails, and phone numbers, or compromise office email systems and inject themselves into an established email thread in order to gain attention, legitimacy, and the appearance of authority.
 
+In the image below, sent by [@JCyberSec_](https://twitter.com/JCyberSec_) on Twitter, we see examples of two different gift card scams, where the scammer poses as  the victim's boss. This is a power dynamic play, and is one of the more common tactics used.
+
+![An example of a text-based gift card scam attempt][img1]
+
 According to the Internet Crime Complaint Center (IC3), BEC/EAC attacks historically involved "compromised vendor emails" and "fraudulent requests for large amounts of gift cards."
 
 >"Now, fraudsters are using virtual meeting platforms to hack emails and spoof business leaders’ credentials to initiate the fraudulent wire transfers. These fraudulent wire transfers are often immediately transferred to cryptocurrency wallets and quickly dispersed, making recovery efforts more difficult."
@@ -94,3 +98,4 @@ If you think you've been successfully targeted by a gift card scam, the links be
 Article images: [Jeepers Media](https://www.flickr.com/photos/jeepersmedia/albums/72157712832153488)
 
 [1]: https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2021/12/scammers-prefer-gift-cards-not-just-any-card-will-do
+[img1]: https://steved3.io/images/posts/gift_card_text_examples.jpg

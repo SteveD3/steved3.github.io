@@ -14,7 +14,7 @@ In addition to the new job, I also got a new house and a new ISP. This has posed
 
 This whole thing with Twitter is strange. I don't know what to think honestly. On one hand, I think that Twitter's new owner is out to intentionally mess things up. On the other hand, it's possible he really is clueless about social media.
 
-I've joined InfoSec.Exchange on Mastodon, the link is on the [About](https://steved3.io/about/) page. I'm not abandoning Twitter though. I've been on Twitter for more than a decade. I've met so many people on there, and learned so much from those people, that I can't just walk away.
+I've joined InfoSec.Exchange on Mastodon, the link is on the [About](https://steved3.io/about/) page. I'm not abandoning Twitter though. I've been on Twitter for more than a decade. I've met so many people on there, and learned so much from those people, that I can't just walk away. Over the last few weeks, I've noticed that many of those regulars are moving on to other places, even outside social media, such as substack. 
 
 Twitter can be a cesspool at times, a hellscape that is rife with abuse and absurd conspiracy-driven stupidity (at least that  is how I've felt about it these last few years). Yet, when I started filtering my feeds and follows, and started focusing on the content and conversations I wanted, I learned more than I ever thought possible from some really smart people. Over the years, I have built honest friendships and business relationships. I can't just throw that away because the new owner is an asshole.
 
